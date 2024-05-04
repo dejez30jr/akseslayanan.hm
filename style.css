@@ -1,0 +1,159 @@
+*,
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.judul{
+    margin-top: 15px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+
+
+a{
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#ffb800),
+        to(#e76f00)
+      );
+      background-image: linear-gradient(to right, #ffb800, #e76f00);
+    border-radius: 15px;
+    padding: 7px 20px;
+    width: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow:  2px 4px black;
+}
+
+.kembali-{
+    margin-top: 45px;
+}
+
+body{
+    background-image: url(pexels-roman-odintsov-4871011.jpg);
+    background-attachment: fixed;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  margin-top: 30px;
+}
+
+.cards{
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-items{
+    width: 40%;
+    height: 215px;
+    background-image: url(tes1.jpg);
+    border: 3px solid rgb(143, 131, 131);
+    padding: 30px;
+    margin: 8px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+i{
+    padding: 25px;
+    background-color: rgb(30, 31, 32);
+    color: aliceblue;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.ab{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+button{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    border: none;
+  
+}
+
+.ac{
+ font-weight: bold;
+ margin-top: 5px;
+ margin-bottom: 15px;
+ width: auto;
+ color: #030303;
+ padding: 5px;
+ font-size: 20px;
+ background-color: bisque;
+ border-radius: 12px;
+ border: 2px solid rgb(255, 255, 255);
+ box-shadow: 5px 5px black;
+ 
+}
+
+.img-a{
+    width: 80%;
+    height: 150px;
+    border-radius: 15px;
+    border: 2px solid rgb(197, 194, 194);
+}
+
+
+.footer{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.start{
+    margin-top: 0;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    background-color: #030303;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.tq{
+    margin-top: 15px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px){
+    .ac{
+      width:  auto;
+      flex-direction: row;
+    }
+    .tq{
+        padding: 5px;
+        background-color: red;
+        flex-wrap: wrap;
+        border: 2px solid white;
+        width: 100%;
+    }
+}
+@media (max-width: 380px){
+  .ac{
+   display: none;
+  }
+  .card-items{
+    height: auto;
+    padding: 20px;
+  }
+}
