@@ -28,6 +28,7 @@ a{
     text-decoration: none;
     font-weight: bold;
     box-shadow:  2px 4px black;
+    color: black;
 }
 
 .kembali-{
@@ -84,6 +85,10 @@ button{
     margin-top: 15px;
     border: none;
   
+}
+button:hover{
+    border-radius: 20px;
+    position: relative;
 }
 
 .ac{
