@@ -1,164 +1,146 @@
-*,
+*, 
 html,body{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
-.judul{
-    margin-top: 15px;
-    text-align: center;
-    color: antiquewhite;
-}
-
-
-
-a{
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(#ffb800),
-        to(#e76f00)
-      );
-      background-image: linear-gradient(to right, #ffb800, #e76f00);
-    border-radius: 15px;
-    padding: 7px 20px;
-    width: 40px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow:  2px 4px black;
-}
-
-.kembali-{
-    margin-top: 45px;
-}
-
-body{
-    background-image: url(pexels-roman-odintsov-4871011.jpg);
+.hz-jpg{
+    width: 100%;
+    height: 400px;
     background-attachment: fixed;
 }
 
-.container{
-  width: 100%;
-  min-height: 100vh;
-  height: auto;
-  margin-top: 30px;
+body{
+    background-color: black;
+    background-attachment: fixed;
 }
 
-.cards{
-flex-wrap: wrap;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.card-items{
-    width: 40%;
-    height: 215px;
-    background-image: url(tes1.jpg);
-    border: 3px solid rgb(143, 131, 131);
-    padding: 30px;
-    margin: 8px;
-    text-align: center;
-    border-radius: 12px;
-}
-
-i{
-    padding: 25px;
-    background-color: rgb(30, 31, 32);
-    color: aliceblue;
-    border-radius: 50%;
-    border: 3px solid white;
-}
-
-.ab{
-    font-weight: bold;
-    font-size: 25px;
-    font-family: "Josefin Sans", sans-serif;
-}
-
-button{
-    border-radius: 10px;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    border: none;
-    color: black;
-  
-}
-button:hover{
-    border-radius: 20px;
-    position: relative;
-}
-
-.ac{
- font-weight: bold;
- margin-top: 5px;
- margin-bottom: 15px;
- width: auto;
- color: #030303;
- padding: 5px;
- font-size: 20px;
- background-color: bisque;
- border-radius: 12px;
- border: 2px solid rgb(255, 255, 255);
- box-shadow: 5px 5px black;
- 
-}
-
-.img-a{
-    width: 80%;
-    height: 150px;
-    border-radius: 15px;
-    border: 2px solid rgb(197, 194, 194);
-}
-
-
-.footer{
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
+.card{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px 30px 0px 0px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
 }
 
-.start{
-    margin-top: 0;
-    text-align: center;
-    color: aliceblue;
-    position: relative;
-    background-color: #030303;
-    padding: 5px;
-    border-radius: 12px;
+.card-item{
+ width: 30%;
+ border-radius: 15px;
+ margin: 10px;
+ box-shadow: 0 6px 15px rgb(85, 84, 84);
 }
 
-.tq{
-    margin-top: 15px;
-    color: antiquewhite;
-    text-align: center;
-    font-size: 20px;
+.absen-jpg{
+width: 100%;
+height: 200px;
+border-radius: 15px 15px 0px 0px;
+background-color: black;
 }
+
+.box{
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
 
 
 @media (max-width: 768px){
-    .ac{
-      width:  auto;
-      flex-direction: row;
+    .card-item{
+        width: 40%  ;
     }
-    .tq{
-        padding: 5px;
-        background-color: red;
-        flex-wrap: wrap;
-        border: 2px solid white;
+
+    .right{
+        margin-bottom: 10px;
+    }
+
+    .absen-jpg{
+        height: 150px;
+    }
+   
+    .hz-jpg{
         width: 100%;
+        height: 300px;
+        background-attachment: fixed;
     }
-}
-@media (max-width: 380px){
-  .ac{
-   display: none;
-  }
-  .card-items{
-    height: auto;
+    
+    .footer{
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+        color: white;
+        background-color: red;
+    }
+    
+
+    .coming-soon{
+        display: none;
+    }
+
+   .akses{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
-  }
+    align-items: center;
+    background-color: rgb(224, 223, 223);
+    border-radius: 30px 30px 0px 0px;
+    margin-top: -9px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 20px;
+   }
+
+   a{
+    text-decoration: none;
+   }
+}
+
+@media (min-width: 769px){
+    .hz-jpg{
+        width: 100%;
+        height: 400px;
+        background-attachment: fixed;
+        display: none;
+    }
+    
+    body{
+        background-color: black;
+        background-attachment: fixed;
+        display: none;
+    }
+    
+    .card{
+        display: flex;
+        justify-content: center;
+        border-radius: 30px 30px 0px 0px;
+        flex-wrap: wrap;
+        background-color: white;
+        padding: 10px;
+        display: none;
+    }
+    
+    .card-item{
+     width: 30%;
+     border-radius: 15px;
+     margin: 10px;
+     box-shadow: 0 6px 15px rgb(85, 84, 84);
+     display: none;
+    }
+    
+    .absen-jpg{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: black;
+    display: none;
+    }
+    
+    .box{
+        justify-content: space-between;
+        padding: 10px;
+        display: none;
+    }
+
 }
