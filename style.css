@@ -49,8 +49,19 @@ background-color: black;
 
 
 @media (max-width: 768px){
+
+    .card{
+        height: auto;
+    }
     .card-item{
-        width: 40% ;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .card-item:hover{
+        border: 5px solid red;
+    }
+    .card-item:last-child{
+        margin-bottom: 40px;
     }
 
     .right{
@@ -103,7 +114,20 @@ background-color: black;
    h2{
     margin-left: 10px;
    }
-   
+   .box{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+
+   }
+   .link{
+    background-color: rgb(92, 127, 245);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    left: 10px;
+    right: 10px;
+   }
 }
 
 @media (min-width: 769px){
