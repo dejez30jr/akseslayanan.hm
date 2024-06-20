@@ -116,17 +116,29 @@ background-color: black;
    }
    .box{
     text-align: center;
+    flex-direction: column;
     font-family: "Kanit", sans-serif;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 
    }
    .link{
     background-color: rgb(92, 127, 245);
     padding: 10px;
     border-radius: 10px;
-    text-align: center;
+    width: 80%;
+    box-shadow: 3px 3px 3px black;
     left: 10px;
     right: 10px;
+   }
+   .link:hover{
+    background-color: tomato;
+    transform: scale(1.1);
+   }
+   .link-atur{
+    display: flex;
+    justify-content: center;
    }
    .mobile{
     display: none;
