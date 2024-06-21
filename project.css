@@ -8,22 +8,25 @@ body,html{
    
     nav{
         background-color: darkcyan;
+        display: flex;
+        align-items: center;
     }
     nav a{
         text-decoration: none;
-        color: aliceblue;
+        color: rgb(255, 255, 255);
     }
     .menu-back{
         padding: 10px;
         font-size: 33px;
+        color: black;
     }
 
     header{
         text-align: center;
-        padding: 10px;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         border: none;
-        margin-top: 20px;
+        width: 75%;
+        align-items: start;
     }
     h2{
         font-size: 35px;
