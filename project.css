@@ -5,18 +5,38 @@ body,html{
 }
 
 @media (max-width: 768px){
+   
+    nav{
+        background-color: darkcyan;
+    }
+    nav a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .menu-back{
+        padding: 10px;
+        font-size: 33px;
+    }
+
     header{
         text-align: center;
         padding: 10px;
-        background-color: darkcyan;
-        color: aliceblue;
+        color: rgb(0, 0, 0);
+        border: none;
+        margin-top: 20px;
+    }
+    h2{
+        font-size: 35px;
     }
 
     .card-item{
-        box-shadow: 5px 5px 5px rgb(95, 95, 95);
+        box-shadow: 5px 5px rgb(33, 33, 33);
         width: 50%;
         width: 90%;
         margin: 10px;
+    }
+    .card-item:first-of-type{
+        margin-top: -10%;
     }
     
     .card{
